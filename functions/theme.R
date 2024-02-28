@@ -22,4 +22,9 @@ tema <- ggthemes::theme_hc() +
   ),
   legend.title = element_text(
     family = "Times New Roman",
-    size = 14 ))
+    size = 14 
+    ),
+  strip.text = element_text(
+    family = "Times New Roman",
+    size=14
+  ))

@@ -1,6 +1,11 @@
+
+# clean up workspace ------------------------------------------------------
 rm(list=ls())
 
-# Packages ----------------------------------------------------------------
+# close all figure --------------------------------------------------------
+graphics.off()
+
+# load packages -----------------------------------------------------------
 library(readxl)
 library(tidyverse)
 library(ggthemes)
@@ -8,7 +13,6 @@ library(patchwork)
 library(extrafont)
 library(glue)
 library(harrypotter)
-
 
 # list functions ----------------------------------------------------------
 my_R_files <- list.files(path ="functions", pattern = '*.R', 
